@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <ApplicationIcon></ApplicationIcon>
+	<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove=".gitignore" />
+    <None Remove="1.txt" />
+    <None Remove="10.txt" />
+    <None Remove="2.txt" />
+    <None Remove="3.txt" />
+    <None Remove="4.txt" />
+    <None Remove="5.txt" />
+    <None Remove="6.txt" />
+    <None Remove="7.txt" />
+    <None Remove="8.txt" />
+    <None Remove="9.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
